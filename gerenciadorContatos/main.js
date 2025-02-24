@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", carregarContatos);
 const formulario = document.getElementById("form-group");
 
 formulario.addEventListener("submit", function (event) {
-  event.preventDefault(); //impedindo o refresh da página
+  event.preventDefault();
   adicionarContato();
 });
 
